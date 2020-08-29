@@ -1,0 +1,71 @@
+DOCTYPE html>
+<html>
+<head>
+	<title>ftext</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+</head>
+<style>
+	body {
+		text-align: center;
+		margin: 20px;
+		font-family: consolas , menlo, monaco, monospace;
+		font-size: 125%;
+		line-height: 150%;
+	}
+	textarea {
+		max-width: 768px;
+		width: 100%;
+		min-height:300px;
+		padding: 10px;
+		box-sizing: border-box;
+		font-size: 125%;
+		border: 2px solid #eee;
+		outline: 0;
+		resize: none;
+		overflow:auto;
+		word-wrap: break-word;
+		-webkit-appearance: none;
+	}
+	a {
+		color: #00f; 
+		text-decoration: none;
+	}
+	.submit {
+		font-size:80%;
+		width:20%;
+		min-width:100px;
+		height:auto;
+		padding:10px 0 8px 0;
+		margin:20px auto;
+		background-color:#8c5;
+		color:white;
+		font-weight:bold;
+		border:0;
+		display:block;
+		-webkit-appearance: none;
+		-webkit-border-radius: 0;
+		display:inline-block;
+	}
+	#preview {
+		background-color: #fa1;
+		margin-right: 5%;
+	}
+	@media (max-width: 480px) {
+    	body		{font-size:100%;}
+		img#logo	{height:21px;margin:0 0 10px 0;image-rendering:pixelated}
+		article 	{width:90%}
+	}	
+</style>
+<body>
+	<form method="post" action="so.php">
+		<textarea name="ftext" placeholder="Write Anything!"></textarea>
+		<p id="url">Honey: <br /><input name="url" /></p>		
+<br>
+	<input class="submit" type="submit" value="PUBLISH" name="go">
+	<input name="nonce" type="hidden" value="xWqyfaAhWo,1598689658,ccc85e02bdb692ec7cd50d43f44be9ea50806771"/>
+	<input name="ref" type="hidden" value="/"/>
+	
+</form>	
+</body>
+</html>
